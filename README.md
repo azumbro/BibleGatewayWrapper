@@ -3,8 +3,8 @@
  A simple Node module for interacting with the content on [Bible Gateway](https://www.biblegateway.com/).
 
 ## Usage
-1) Get the BibleGatewayWrapper module by running ```npm install BibleGatewayWrapper```. 
-getBibleChapter2) Made the wrapper callable from your code by importing it using `import { getBibleChapter } from "BibleGatewayWrapper"` or `const bibleGatewayWrapper = require("BibleGatewayWrapper")`.
+1) Get the bible-gateway-wrapper module by running ```npm install bible-gateway-wrapper```.
+2) Made the wrapper callable from your code by importing it using `import { getBibleChapter } from "bible-gateway-wrapper"` or `const bibleGatewayWrapper = require("bible-gateway-wrapper")`.
 3) Call the wrapper using 
 
     ```
@@ -28,7 +28,7 @@ getBibleChapter2) Made the wrapper callable from your code by importing it using
 ## Example
 Code:
 ```
-import { getBibleChapter } from "BibleGatewayWrapper"
+import { getBibleChapter } from "bible-gateway-wrapper"
 
 (async () => {
     const output = await getBibleChapter("Psalms", 117, "RSVCE", "html-array")
