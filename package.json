@@ -1,0 +1,14 @@
+{
+  "name": "BibleGatewayWrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write ./*.js ./tests/*.js",
+    "test": "node ./tests/tests.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "node-html-parser": "^5.1.0",
+    "prettier": "^2.5.1"
+  }
+}
