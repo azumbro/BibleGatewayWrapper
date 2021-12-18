@@ -1,6 +1,6 @@
 {
   "name": "bible-gateway-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write ./*.js ./tests/*.js",
@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
-    "node-html-parser": "^5.1.0",
+    "node-html-parser": "^5.1.0"
+  },
+  "devDependencies": {
     "prettier": "^2.5.1"
   }
 }
