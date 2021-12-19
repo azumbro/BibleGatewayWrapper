@@ -1,6 +1,6 @@
 {
   "name": "bible-gateway-wrapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write ./*.js ./tests/*.js",

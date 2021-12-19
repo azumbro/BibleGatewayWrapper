@@ -3,6 +3,7 @@
  A simple Node module for interacting with the content on [Bible Gateway](https://www.biblegateway.com/).
 
 Source Code Link: [https://github.com/azumbro/BibleGatewayWrapper](https://github.com/azumbro/BibleGatewayWrapper)
+
 NPM Link: [https://www.npmjs.com/package/bible-gateway-wrapper](https://www.npmjs.com/package/bible-gateway-wrapper)
 ## Usage
 1) Get the bible-gateway-wrapper module by running ```npm install bible-gateway-wrapper```.
