@@ -11,13 +11,13 @@ NPM Link: [https://www.npmjs.com/package/bible-gateway-wrapper](https://www.npmj
 3) Call the wrapper using 
 
     ```
-    const result = getBibleChapter(book, chapter, version, format, includeFootnotes)
+    const result = await getBibleChapter(book, chapter, version, format, includeFootnotes)
     ``` 
 
     or 
 
     ```
-    const result = bibleGatewayWrapper.getBibleChapter(book, chapter, version, format, includeFootnotes)
+    const result = await bibleGatewayWrapper.getBibleChapter(book, chapter, version, format, includeFootnotes)
     ``` 
 
     with the arguments described below.
