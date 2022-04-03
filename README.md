@@ -1,4 +1,4 @@
-# Bible Gateway Wapper
+# Bible Gateway Wrapper
 
  A simple Node module for interacting with the content on [Bible Gateway](https://www.biblegateway.com/).
 
